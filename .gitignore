@@ -1,0 +1,24 @@
+# Mac stuff
+.DS*
+
+# zip files
+*.zip
+
+# Merge originals
+*.orig
+
+# voting-client
+# Node-specific
+voting-client/node_modules/
+voting-client/npm-debug.log
+
+# compiled stuff
+voting-client/dist/bundle.js
+
+# voting-client
+# Node-specific
+voting-server/node_modules/
+voting-server/npm-debug.log
+
+# compiled stuff
+voting-server/dist/bundle.js
